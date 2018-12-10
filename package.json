@@ -1,7 +1,7 @@
 {
-  "name": "secrets",
+  "name": "metaflux-jekyll",
   "version": "1.0.0",
-  "description": "Small static tourist site with jekyll & web components",
+  "description": "metaflux & jekyll boilerplate",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server  --mode development",
     "test": "echo \"Error: no test specified\" && exit 1",

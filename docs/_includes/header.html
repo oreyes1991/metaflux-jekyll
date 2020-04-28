@@ -1,25 +1,25 @@
 <div class="main-header">
 	<div class="logo">
-		<img src="{{'assets/img/default-logo-white.svg' | relative_url }}" alt="default-logo">
+		<img src="{{'assets/img/default-logo-white.svg' | prepend: site.baseurl }}" alt="default-logo">
 	</div>
 	<div class="items">
 		<div name="/" class="item active">
-			<a href="{{'/' | relative_url}}">
+			<a href="{{ site.baseurl }}">
 				Home
 			</a>
 		</div>
 		<div name="docs" class="item">
-			<a href="{{'docs/overview/' | relative_url}}">
+			<a href="{{'docs/overview/' | prepend: site.baseurl}}">
 				Documentation
 			</a>
 		</div>
 		<div name="community" class="item">
-			<a href="{{'community/' | relative_url}}">
+			<a href="{{'community/' | prepend: site.baseurl}}">
 				Community
 			</a>
 		</div>
 		<div name="blog" class="item">
-			<a href="{{'blog/' | relative_url}}">
+			<a href="{{'blog/' | prepend: site.baseurl}}">
 				Blog
 			</a>
 		</div>

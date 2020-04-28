@@ -10,9 +10,9 @@ layout: default
         <p>
           {{site.description}}
         </p>
-        <pretty-button size="large" href="{{'/docs/overview/' | prepend: site.baseurl}}" value="Get Started"></pretty-button>
+        <pretty-button size="large" href="{{'/docs/overview/' | relative_url}}" value="Get Started"></pretty-button>
       </div>
-      <img src="{{'assets/img/default-logo.svg' | prepend: site.baseurl}}" alt="default-logo">
+      <img src="{{'assets/img/default-logo.svg' | relative_url}}" alt="default-logo">
     </div>
     <div class="benefits">
       {{site.benefits}}

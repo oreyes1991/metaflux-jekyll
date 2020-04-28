@@ -5,7 +5,7 @@
 	{% if page.layout == "docs" %}
 		<pretty-menu-item type="group" name="{{page.name}}">
 			<div>
-				<a href="{{page.permalink | prepend: site.baseurl}}">
+				<a href="{{page.permalink | relative_url}}">
 					{{page.title}}
 				</a>
 			</div>

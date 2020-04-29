@@ -30,7 +30,7 @@
 			 * @returns {String} the tabname
 			 */
 			function getTabName(url) {
-				if (url === '{{site.baseurl}}/') return url
+				if (url === '{{site.baseurl}}'+'/') return url
 				const tabs = ['docs', 'community', 'blog'];
 				let resp = 'blog';
 				tabs.forEach((el) => {
